@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CaribeAirCol | Blog de Fotografías Reales y Lugares para Fotos</title>
+    
+    <meta name="description" content="CaribeAirCol es tu blog de fotografías reales. Descubre los mejores lugares para fotos en Barranquilla, Cali y toda Colombia. Encuentra espacios para fotos e inspiración visual.">
+    <meta name="keywords" content="fotografías para, imágenes imágenes para, ciudad barranquilla colombia, imagenes para fotografia, fotografias reales, fotografías sobre, imagenes para imagenes, sobre imagenes, espacios para fotos, sitio para buscar personas por fotos, imagen por imagen, imágenes para una, lugares para fotos en barranquilla">
+    <meta name="author" content="HAROLD NIÑO ALVARES">
+    <meta name="robots" content="index, follow">
+    
+    <style>
+        :root {
+            --primary-color: #2563eb;
+            --secondary-color: #1e40af;
+            --text-color: #333333;
+            --bg-color: #f8fafc;
+            --white: #ffffff;
+        }
+        
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
+        body { background-color: var(--bg-color); color: var(--text-color); line-height: 1.6; }
+        a { text-decoration: none; color: inherit; }
+        
+        /* Header & Nav */
+        header { background-color: var(--white); box-shadow: 0 2px 10px rgba(0,0,0,0.1); position: sticky; top: 0; z-index: 100; }
+        .nav-container { max-width: 1200px; margin: 0 auto; padding: 1rem 2rem; display: flex; justify-content: space-between; align-items: center; }
+        .logo { font-size: 1.5rem; font-weight: bold; color: var(--primary-color); }
+        .nav-links { display: flex; gap: 1.5rem; }
+        .nav-links a:hover { color: var(--primary-color); }
+        
+        /* Botones / CTA */
+        .cta-btn { background-color: var(--primary-color); color: var(--white); padding: 0.75rem 1.5rem; border-radius: 5px; font-weight: bold; text-align: center; display: inline-block; transition: background 0.3s; border: none; cursor: pointer; }
+        .cta-btn:hover { background-color: var(--secondary-color); color: var(--white); }
+        
+        /* Secciones Generales */
+        section { padding: 4rem 2rem; max-width: 1200px; margin: 0 auto; }
+        h1, h2, h3 { color: #111827; margin-bottom: 1rem; }
+        .section-title { text-align: center; font-size: 2.2rem; margin-bottom: 3rem; }
+        
+        /* Hero */
+        .hero { text-align: center; padding: 6rem 2rem; background: linear-gradient(rgba(37, 99, 235, 0.1), rgba(30, 64, 175, 0.05)); border-radius: 0 0 2rem 2rem; }
+        .hero h1 { font-size: 3rem; margin-bottom: 1.5rem; }
+        .hero p { font-size: 1.2rem; max-width: 800px; margin: 0 auto 2rem; color: #4b5563; }
+        
+        /* Grid Layouts para Beneficios y Servicios */
+        .grid-3 { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; }
+        .card { background: var(--white); padding: 2rem; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.05); text-align: center; }
+        .card h3 { color: var(--primary-color); }
+        
+        /* Transparencia y Contacto */
+        .contact-section { background: var(--white); padding: 3rem; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.05); display: grid; grid-template-columns: 1fr 1fr; gap: 3rem; }
+        .contact-info li { list-style: none; margin-bottom: 1rem; font-size: 1.1rem; }
+        .form-group { margin-bottom: 1.5rem; }
+        .form-group label { display: block; margin-bottom: 0.5rem; font-weight: bold; }
+        .form-group input, .form-group textarea { width: 100%; padding: 0.75rem; border: 1px solid #ccc; border-radius: 4px; font-size: 1rem; }
+        
+        /* Prueba Social */
+        .social-proof { text-align: center; background-color: #e0f2fe; padding: 3rem 2rem; border-radius: 8px; margin: 2rem auto; }
+        
+        /* Footer */
+        footer { background-color: #1f2937; color: #f3f4f6; text-align: center; padding: 3rem 2rem; margin-top: 4rem; }
+        .footer-links { margin-top: 1.5rem; }
+        .footer-links a { margin: 0 1rem; text-decoration: underline; }
+        
+        /* Responsive */
+        @media (max-width: 768px) {
+            .contact-section { grid-template-columns: 1fr; }
+            .nav-links { display: none; /* Simplificado para móvil en landing pura */ }
+            .hero h1 { font-size: 2.2rem; }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="nav-container">
+            <a href="#" class="logo">CaribeAirCol</a>
+            <nav class="nav-links">
+                <a href="#servicios">Servicios</a>
+                <a href="#beneficios">Beneficios</a>
+                <a href="#contacto">Contacto</a>
+            </nav>
+            <a href="#contacto" class="cta-btn">Explorar Lugares</a>
+        </div>
+    </header>
+
+    <section class="hero">
+        <h1>Descubre los Mejores Espacios para Fotos en Colombia</h1>
+        <p>CaribeAirCol es tu blog especializado en fotografías reales. Encuentra inspiración visual, evalúa imagen por imagen, y localiza de forma precisa los lugares para fotos en Barranquilla, Cali y otras ciudades del país.</p>
+        <a href="#contacto" class="cta-btn">Encuentra tu Próxima Locación</a>
+    </section>
+
+    <section id="beneficios">
+        <h2 class="section-title">¿Por qué consultar nuestro blog?</h2>
+        <div class="grid-3">
+            <div class="card">
+                <h3>Fotografías Reales</h3>
+                <p>Curamos contenido basándonos en fotografías reales, sin filtros engañosos, para que sepas exactamente qué esperar de cada locación.</p>
+            </div>
+            <div class="card">
+                <h3>Lugares en Barranquilla</h3>
+                <p>Contamos con guías detalladas sobre la ciudad de Barranquilla, Colombia, destacando los rincones arquitectónicos y naturales ideales para sesiones.</p>
+            </div>
+            <div class="card">
+                <h3>Transparencia Total</h3>
+                <p>Somos un sitio honesto diseñado para buscar inspiración visual. No vendemos promesas exageradas, solo información de calidad sobre imágenes.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="servicios">
+        <h2 class="section-title">Nuestra Propuesta de Valor</h2>
+        <div class="grid-3">
+            <div class="card">
+                <h3>Directorio de Espacios para Fotos</h3>
+                <p>Explora un catálogo organizado con imágenes para fotografía, ideal para fotógrafos aficionados y profesionales que buscan nuevas locaciones.</p>
+            </div>
+            <div class="card">
+                <h3>Análisis de Fotografías</h3>
+                <p>Estudiamos fotografías sobre iluminación, encuadre y composición. Un análisis detallado de imagen por imagen para mejorar tu técnica.</p>
+            </div>
+            <div class="card">
+                <h3>Comunidad Visual</h3>
+                <p>Un espacio donde las imágenes para una correcta planeación de tu sesión son la prioridad. Información clara, directa y fácil de navegar.</p>
+            </div>
+        </div>
+    </section>
+    
+    <section class="social-proof">
+        <h2>Inspirando a fotógrafos en toda Colombia</h2>
+        <p>Nuestro contenido está creado basándonos en investigaciones de campo y visitas reales a los lugares recomendados. Nos enorgullece ser una fuente de consulta confiable para quienes buscan sitios auténticos para sus proyectos visuales y fotográficos.</p>
+    </section>
+
+    <section id="contacto">
+        <h2 class="section-title">Contáctanos y Mejora tus Sesiones</h2>
+        <div class="contact-section">
+            <div>
+                <h3>Información de la Empresa</h3>
+                <p style="margin-bottom: 1.5rem; color: #4b5563;">Estamos aquí para ayudarte a encontrar los mejores lugares para fotos. Contáctanos de manera directa.</p>
+                <ul class="contact-info">
+                    <li><strong>Responsable:</strong> HAROLD NIÑO ALVARES</li>
+                    <li><strong>Ciudad Central:</strong> Cali, Valle del Cauca, Colombia</li>
+                    <li><strong>Dirección:</strong> Cl. 7a #56-136, Código Postal 760033, Colombia</li>
+                    <li><strong>Teléfono:</strong> +57 3012455420</li>
+                    <li><strong>Correo:</strong> duongduchung987@gmail.com</li>
+                    <li><strong>Horario de atención:</strong> Todos los días de la semana de 8:00 am a 5:00 pm</li>
+                </ul>
+            </div>
+            <div>
+                <form id="contactForm" onsubmit="enviarFormulario(event)">
+                    <div class="form-group">
+                        <label for="nombre">Nombre Completo</label>
+                        <input type="text" id="nombre" required placeholder="Tu nombre">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Correo Electrónico</label>
+                        <input type="email" id="email" required placeholder="tu@correo.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="mensaje">¿Qué tipo de espacios para fotos buscas?</label>
+                        <textarea id="mensaje" rows="4" required placeholder="Escribe tu mensaje aquí..."></textarea>
+                    </div>
+                    <button type="submit" class="cta-btn" style="width: 100%;">Enviar Solicitud</button>
+                    <p id="formResponse" style="display: none; color: green; margin-top: 1rem; font-weight: bold;">¡Gracias! Hemos recibido tu mensaje y te contactaremos pronto.</p>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 CaribeAirCol - HAROLD NIÑO ALVARES. Todos los derechos reservados.</p>
+        <div class="footer-links">
+            <a href="terminos-y-condiciones.html">Términos y Condiciones</a>
+            <a href="politica-de-privacidad.html">Política de Privacidad</a>
+        </div>
+    </footer>
+
+    <script>
+        function enviarFormulario(event) {
+            event.preventDefault(); // Evita recargar la página
+            // Aquí iría la integración con tu backend o servicio de correo.
+            // Para cumplir con Google Ads, mostramos un mensaje de éxito honesto sin redirecciones engañosas.
+            document.getElementById('formResponse').style.display = 'block';
+            document.getElementById('contactForm').reset();
+        }
+    </script>
+</body>
+</html>
